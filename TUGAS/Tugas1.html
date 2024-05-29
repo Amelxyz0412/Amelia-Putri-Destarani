@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS CSS & HTML</title>
+    <link rel="stylesheet"href="Tugas1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Salsa&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Indie+Flower&family=Merienda:wght@300..900&family=Mynerve&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Salsa&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Special+Elite&display=swap" rel="stylesheet">
+    <style>
+        .colorful-text span {
+            font-size: 30px;
+            font-weight: bold;
+            display: inline-block;
+            animation: animationdelay 1s infinite alternate;
+        }
+        .Merah {
+            color: rgb(94, 16, 73);
+        }
+        .Biru {
+            color: rgb(135, 57, 123);
+        }
+        .Pink {
+            color: rgb(128, 101, 128);
+        }
+        @keyframes animationdelay {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(10px);
+            }
+        }
+        .colorful-text span:nth-child(1) { animation-delay: 0s; }
+        .colorful-text span:nth-child(2) { animation-delay: 0.1s; }
+        .colorful-text span:nth-child(3) { animation-delay: 0.2s; }
+        .colorful-text span:nth-child(4) { animation-delay: 0.3s; }
+        .colorful-text span:nth-child(5) { animation-delay: 0.4s; }
+        .colorful-text span:nth-child(6) { animation-delay: 0.5s; }
+        .colorful-text span:nth-child(7) { animation-delay: 0.6s; }
+    </style>
+</head>
+<body>
+    <body>
+        <section>
+            <!--- navigation --->
+            <nav>
+                <!--- logo --->
+                <div class="container-logo">
+                    <img src="../asets/LOGO_3-removebg-preview.png" alt="Foto saya" width="60px" height="60">
+                    <div class="colorful-text" id="colorful-text">
+                        <span class="Merah">A</span>
+                        <span class="Biru">M</span>
+                        <span class="Pink">E</span>
+                        <span class="Merah">L</span>
+                        <span class="Biru">Y</span>
+                        <span class="Pink">A</span>
+                        <div class="small-text">Crafting Ideas into Reality</div>
+                    </div>
+                </div>
+                <!--- menu --->
+                <ul>
+                    <li><a href="#" class="active">Gallery</a></li>
+                    <li><a href="#">Story</a></li>
+                    <li><a href="#">Store</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <!--- text --->
+            <div class="text-container">
+                <p>ENTREPRENEUR | WRITER | VOLUNTEER</p>
+                <p>Hello I'm Amel!</p>
+                <p class="justified-text">
+                    Selamat datang di web perjalanan saya yang menginspirasi. Selain menjadi mahasiswa, saya juga seorang pengusaha, relawan, dan penulis. Sebagai seorang pengusaha, saya fokus pada inovasi dan menciptakan solusi dengan dampak positif. Selain itu, saya juga aktif terlibat menjadi relawan, mendedikasikan waktu dan keterampilan untuk berbagai penyebab sosial dan lingkungan. 
+                    Selain itu, saya juga aktif terlibat menjadi relawan, mendedikasikan waktu dan keterampilan untuk berbagai penyebab sosial dan lingkungan. Keterlibatan saya dalam kegiatan kerelawanan membantu saya untuk memahami lebih dalam berbagai tantangan yang dihadapi masyarakat dan bagaimana kita dapat berkontribusi untuk membuat perubahan positif. Melalui pengalaman ini, saya belajar banyak tentang empati, kerja sama, dan ketekunan.
+                </p>
+                <button class="hire-btn">Contact me</button>
+                <button class="down-cv">Portfolio</button>
+            </div>
+        </section>
+        <!-- gambar -->
+        <div class="image">
+            <img
+            src="../asets/amelia.jpg"
+            width="200px" 
+            height="130"
+            class="img1"
+            />
+            <img
+            src="../asets/amelia.jpg"
+            width="200px" 
+            height="200"
+            class="img2"
+            />
+            <img
+            src="../asets/amelia.jpg"
+            width="200px" 
+            height="200"
+            class="img3"
+            />
+            <img
+            src="../asets/amelia.jpg"
+            width="200px" 
+            height="130"
+            class="img4"
+            />
+        </div>
+    <!-- footer -->
+<footer>
+    <p>Join my artistic universe and let our stories intertwine.</p>
+         
+    <!--paragraph-->
+    <p>Step into my artistic universe, where each stroke and creation weaves together the tapestry of my existence. Delve into a visual journey  of symbols that navigates between the conscious and the unconscious, what is ordinary and fantasy, and let it ignite a spark within you to explore your own identity.</p>
+    <!--social-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+    </div>
+     
+    <!--copyright-->
+    <p class="copyright">Copyright by Amelia Putri Destarani</p>
+</footer>
+</body>
+</html>
+</body>
+</html>
